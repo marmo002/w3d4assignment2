@@ -18,6 +18,7 @@ class Student < Person
 end
 
 class Instructor < Person
+
   def teach
     "Everything in ruby is an object"
   end
